@@ -1,0 +1,252 @@
+/* Root */
+* {
+  margin: 0;
+}
+
+/* Body */
+body {
+  background-image: url(../images/Extra/img1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* h1 */
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 50px;
+  color: #eeeeee;
+  font-family: "Lora", serif;
+}
+
+/* h3 */
+h3 {
+  text-align: center;
+  font-family: "Lora", serif;
+  color: #e07b39;
+  font-size: 25px;
+  margin: 10px;
+}
+
+/* Main-Board */
+#main-board {
+  height: 70vh;
+  width: 98%;
+  margin: 10px;
+  display: flex;
+}
+
+/* Table in Main-Board */
+#table {
+  height: 67vh;
+  width: 100%;
+  margin: 10px;
+}
+
+/* Div1 in Table */
+#div1 {
+  height: 28vh;
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Dealer-hand in Div1 of Table */
+#dealer_hand {
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Dealer-point Div */
+#dealer_point {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Delaer-score Div */
+#dealer_score {
+  height: 10vh;
+  width: 110px;
+  border-radius: 50%;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+
+/* Div2 in Table */
+#div2 {
+  height: 9vh;
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Stand & Hit Buttons */
+.stand_hit {
+  height: 5vh;
+  width: 10vw;
+  margin: 0px 150px 0px 0px;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.stand_hit:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Div3 in Table */
+#div3 {
+  height: 28vh;
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Player-hand */
+#player_hand {
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Player-point Div */
+#player_point {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Playe-Score Div */
+#player_score {
+  height: 10vh;
+  width: 110px;
+  border-radius: 50%;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+
+/* Label for the points */
+.points {
+  margin: 0;
+  text-align: center;
+  font-family: "Courgette", cursive;
+  font-size: 22px;
+  color: #e07b39;
+}
+
+/* Secondary board */
+#secondary-board {
+  height: 15vh;
+  width: 98%;
+  margin: 10px;
+  display: flex;
+}
+
+/* DIV ID: Buttons */
+#buttons {
+  height: 13vh;
+  width: 20%;
+  margin: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Play Button */
+#play {
+  height: 5vh;
+  width: 15vh;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#play:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Reset Button */
+#reset {
+  height: 5vh;
+  width: 15vh;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background-color: black;
+  color: white;
+}
+
+/* DIV ID: Display */
+#display {
+  height: 13vh;
+  width: 82%;
+  margin: 7px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+/* Label for Win/Loss/Tie */
+label {
+  font-size: 20px;
+  color: brown;
+  margin: 15px 10px 15px 70px;
+}
+
+/* Wins Div */
+#wins {
+  height: 5vh;
+  width: 15vh;
+  margin-left: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Losses Div */
+#losses {
+  height: 5vh;
+  width: 15vh;
+  margin-left: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Ties Div */
+#ties {
+  height: 5vh;
+  width: 15vh;
+  margin-left: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.wlt {
+  font-family: "Courgette", cursive;
+  font-size: 22px;
+  color: #e07b39;
+}
